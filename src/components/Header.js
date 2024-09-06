@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className="bg-black text-white flex justify-around py-5 items-center">
-      <h1 className="text-xl font-bold cursor-pointer">UsersBoard</h1>
+      <Link to="/">
+        <h1 className="text-xl font-bold cursor-pointer">UsersBoard</h1>
+      </Link>
       <div className="flex flex-row gap-10 items-center">
         <Link to="/">
           <h1 className="text-md font-semibold cursor-pointer hover:text-gray-300">
